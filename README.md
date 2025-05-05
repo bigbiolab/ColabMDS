@@ -1,15 +1,6 @@
 
 # Cloud-Based Molecular Dynamics Simulations Using GROMACS: A Practical Workflow on Google Colab
 
-1.  **Colab gmx Installation** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/paulshamrat/ColabMDA/blob/main/notebooks/04-colab-gmx-install.ipynb) ``` Installing GROMACS 2023x for MD simulations in Colab. ``` 
-
-2.  **Colab MD Simulation 2024** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/paulshamrat/ColabMDA/blob/main/notebooks/05-colabmd-simulation-2024.ipynb) ``` Performing MD simulation with GROMACS in Colab. ``` 
-
-03. **Colab MD Analysis** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/paulshamrat/ColabMDA/blob/main/notebooks/03-colabmd-analysis.ipynb) ``` Using MDAnalysis and MDtraj to perform MD trajectory analysis. ```
-
-![](https://github.com/bigbiolab/ColabMDS/blob/main/images/flowchart.png)
-
-
 ## Summary
 This GitHub repository presents a customized and enhanced workflow for conducting Molecular Dynamics (MD) simulations using GROMACS on Google Colab, designed to facilitate accessible, reproducible, and cloud-based molecular modeling. The project builds upon and significantly extends the functionalities of the original repository [ColabMDA](https://github.com/paulshamrat/ColabMDA), which provided a foundational framework for executing GROMACS simulations in a Jupyter Notebook environment.
 
