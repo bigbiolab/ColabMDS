@@ -55,6 +55,34 @@ This course employs a practical, hands-on approach using interactive *Google Col
 
 Participants will gain valuable practical experience in applying diverse molecular modelling and simulation techniques using accessible, state-of-the-art tools within the *Google Colab* framework, empowering them to tackle complex biological questions computationally.
 
+
+---
+## Contents
+The course consists of a series of tutorials, each focusing on a specific aspect of molecular modelling and simulation. The tutorials are designed to be run in *Google Colab*, allowing for easy access and execution without the need for local installations. Each tutorial is self-contained, providing step-by-step instructions and explanations.
+
+
+| Tutorial | Description                           | Software                                                        |
+|--------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Lab.00 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab00_software.ipynb) | Installing Software on Google Colab for IBM3202 tutorials (**OBSOLETE**)                           | pyRosetta [1], GROMACS [2], SBM-enhanced GROMACS [3]                                                        |
+| Lab.01 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab01_intro.ipynb) | Warm-up on Colab and Brief Review of Biomolecular Databases                         |                                                                                                             |
+| Lab.02 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab02_molviz.ipynb) | Visualizing and Comparing Molecular Structures in Google Colab using py3Dmol        | Biopython [4], py3Dmol [5], NGL Viewer [6]                                                                  |
+| Lab.03 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab03_phylo.ipynb) | Phylogenetic Analysis using biopython and RAxML                                     | Biopython [4], miniconda [7], MAFFT [8], ModelTest-ng [9], RAxML-ng [10]                                    |
+| Lab.04 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab04_cm.ipynb) | Comparative Modeling using MODELLER                                                 | Biopython [4], py3Dmol [5], MODELLER [11]                                                                   |
+| Lab.05 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab05_MP_rosetta.ipynb) | Membrane Protein Modelling using PyRosetta                                          | pyRosetta [1], py3Dmol [5]                                                                                  |
+| Lab.06 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab06_docking.ipynb) | Molecular Docking on Autodock                                                       | Biopython [4], py3Dmol [5], miniconda [7], Open Babel [12], pdb2pqr [13], MGLTools [14], Autodock Vina [15] |
+| Lab.07 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab07_MDsims.ipynb) | Molecular Dynamics on GROMACS                                                       | GROMACS [2], Biopython [4], py3Dmol [5], NGL Viewer [6]                                                     |
+| Lab.08 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab08_MDanalysis.ipynb) | Trajectory Analysis using MDanalysis                                                | py3Dmol [5], MDAnalysis [16]                                                                                |
+| Lab.09 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab09_SMOGfolding_docker.ipynb) | Folding Simulations using Structure-Based Models                                    | SMOG2 Docker, udocker, SBM-enhanced GROMACS [3], Biopython [4], py3Dmol [5], NGL Viewer [6]                                 |
+| Lab.10 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab10_SMOGdual_docker.ipynb) | Conformational changes using Structure-Based Models                                 | SMOG2 Docker, udocker, SBM-enhanced GROMACS [3], Biopython [4], py3Dmol [5], NGL Viewer [6]                                 |
+| Lab.11 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab11_rnaDCA.ipynb) | Prediction of interactions from the coevolutionary analysis of sequence information | Biopython [4], py3Dmol [5], infernal [17], pyDCA [18]                      |
+| Lab.12 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab12_abinitioRosetta.ipynb) | Protein folding ab initio using Rosetta                                             | pyRosetta [1], Biopython [4], py3Dmol [5]                         
+
+| Lab.13 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/2021/lab13_protDCASBM.ipynb) | Combining DCA and SBM to predict protein structures | SMOG2, SBM-enhanced GROMACS [3], Biopython [4], py3Dmol [5], pyDCA [18]                          |
+| Lab.14 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/2023/lab14_MSAtransformer.ipynb) | Combining MSA Transformer and SBM to predict protein structures | SMOG2, SBM-enhanced GROMACS [3], Biopython [4], py3Dmol [5], MSA Transformer    
+| Lab.15 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/2022/lab15_CF-GROMACS.ipynb) | Combining ColabFold and GROMACS to predict and simulate protein structures | GROMACS [2], Biopython [4], py3Dmol [5], NGL Viewer [6], ColabFold [19]      |
+
+
+---
 ## Software References
 
 1.  Chaudhury S, Lyskov S, Gray JJ. PyRosetta: a script-based interface for implementing molecular modeling algorithms using Rosetta. *Bioinformatics*. 2010;26:689–91. [doi:10.1093/bioinformatics/btq007](https://doi.org/10.1093/bioinformatics/btq007).
@@ -77,6 +105,7 @@ Participants will gain valuable practical experience in applying diverse molecul
 18. Zerihun MB, Pucci F, Peter EK, Schug A. pydca v1.0: a comprehensive software for direct coupling analysis of RNA and protein sequences. *Bioinformatics*. 2020;36:2264–5. [doi:10.1093/bioinformatics/btz892](https://doi.org/10.1093/bioinformatics/btz892).
 19. Mirdita M, Schütze K, Moriwaki Y, Heo L, Ovchinnikov S, Steinegger M. ColabFold: making protein folding accessible to all. *Nature Methods*. 2022;19:679–682. [doi:10.1038/s41592-022-01488-1](https://doi.org/10.1038/s41592-022-01488-1). 
 
+---
 ## Tutorial References
 
 1.  Abraham, M. J., Murtola, T., Schulz, R., Páll, S., Smith, J. C., Hess, B., & Lindahl, E. (2015). GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers. *SoftwareX*, 1, 19-25. [doi:10.1016/j.softx.2015.06.001](https://doi.org/10.1016/j.softx.2015.06.001).
