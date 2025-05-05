@@ -1,5 +1,5 @@
 
-# Cloud-Based Molecular Dynamics Simulations Using GROMACS: A Practical Workflow on Google Colab
+# Molecular Dynamics Simulations Using GROMACS on Google Colab
 
 ## Summary
 This GitHub repository presents a customized and enhanced workflow for conducting Molecular Dynamics (MD) simulations using GROMACS on Google Colab, designed to facilitate accessible, reproducible, and cloud-based molecular modeling. The project builds upon and significantly extends the functionalities of the original repository [ColabMDA](https://github.com/paulshamrat/ColabMDA), which provided a foundational framework for executing GROMACS simulations in a Jupyter Notebook environment.
