@@ -1,7 +1,59 @@
 # Molecular Modelling and Simulation on Google Colab 
+---
 
+## Overview
 
+Welcome to **Molecular Modelling and Simulation on Google Colab**! This course offers hands-on training in computational techniques used to study the structure, dynamics, and interactions of biological macromolecules. By leveraging the power of the free, cloud-based *Google Colab* platform, this course makes advanced molecular modelling and simulation methods accessible to everyone, regardless of local computing resources. We will explore a wide range of essential bioinformatics tools and workflows through a series of practical tutorials.
 
+---
+## Target Audience
+
+This course is designed for undergraduate and graduate students, researchers, and professionals in *structural biology*, *bioinformatics*, *computational chemistry*, *biophysics*, *pharmacy*, and related life science fields who wish to gain practical skills in molecular modelling and simulation. Some familiarity with basic biological and chemical concepts is recommended. While programming experience (especially *Python*) is helpful, the tutorials are designed to be accessible via the user-friendly Colab interface.
+
+---
+## Learning Objectives
+
+Upon successful completion of this course, participants will be able to:
+
+* Set up and manage common bioinformatics software within the *Google Colab* environment.
+* Visualize, manipulate, and compare biomolecular structures using tools like *py3Dmol* and *NGL Viewer*.
+* Perform phylogenetic analyses using standard bioinformatics pipelines (*MAFFT*, *ModelTest-NG*, *RAxML-NG*).
+* Build 3D protein models using comparative modelling techniques (*MODELLER*).
+* Utilize *PyRosetta* for modelling tasks, including membrane proteins and *ab initio* folding.
+* Conduct molecular docking studies to predict ligand binding using *AutoDock Vina*.
+* Set up, run, and analyze conventional molecular dynamics (MD) simulations using *GROMACS*.
+* Analyze MD simulation trajectories effectively using *MDAnalysis*.
+* Employ structure-based models (SBMs) with *SMOG2* to simulate protein folding and conformational changes.
+* Use coevolutionary sequence analysis (DCA) to predict molecular interactions.
+* Integrate cutting-edge deep learning methods (*ColabFold*, *MSA Transformer*) with simulation and modelling pipelines.
+
+---
+
+### Course Content
+
+The course is structured as a series of hands-on labs covering fundamental and advanced topics:
+
+1.  **Foundations:** Introduction to *Google Colab*, accessing biomolecular databases, and fundamentals of molecular visualization and structural comparison (*Labs 01, 02*). (Note: *Lab 00* on specific installation methods is obsolete, but software setup is integrated into relevant labs).
+2.  **Sequence Analysis & Evolution:** Building phylogenetic trees from sequence data (*Lab 03*).
+3.  **Structure Prediction & Modelling:** Comparative modelling with *MODELLER* (*Lab 04*), membrane protein modelling (*Lab 05*) and *ab initio* folding with *PyRosetta* (*Lab 12*).
+4.  **Molecular Interactions:** Predicting protein-ligand binding through molecular docking (*Lab 06*) and inferring interactions from sequence coevolution (*Lab 11*).
+5.  **Molecular Simulation:** Running and analyzing classical MD simulations with *GROMACS* and *MDAnalysis* (*Labs 07, 08*). Simulating folding and conformational transitions using structure-based models with *SMOG2* (*Labs 09, 10*).
+6.  **Integrative & Advanced Approaches:** Combining coevolutionary data (DCA) or deep learning embeddings (*MSA Transformer*) with structure-based models (*Labs 13, 14*). Integrating state-of-the-art structure prediction (*ColabFold*) with MD simulations (*Lab 15*).
+
+---
+## Methodology
+
+This course employs a practical, hands-on approach using interactive *Google Colab notebooks*. Each tutorial guides participants through specific tasks, running analyses in real-time and visualizing results directly within the browser. We utilize widely adopted, *open-source* software packages prevalent in the field.
+
+---
+### Key Software Utilized
+
+*GROMACS*, *PyRosetta*, *MODELLER*, *AutoDock Vina*, *MDAnalysis*, *SMOG2*, *ColabFold*, *Biopython*, *py3Dmol*, *NGL Viewer*, *MAFFT*, *ModelTest-NG*, *RAxML-NG*, *Open Babel*, *PDB2PQR*, *MGLTools*, *pyDCA*, *Infernal*, and others via *Miniconda/Bioconda*.
+
+---
+## Outcome
+
+Participants will gain valuable practical experience in applying diverse molecular modelling and simulation techniques using accessible, state-of-the-art tools within the *Google Colab* framework, empowering them to tackle complex biological questions computationally.
 
 ## Software References
 
