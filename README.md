@@ -13,7 +13,7 @@
 ## Summary
 This GitHub repository presents a customized and enhanced workflow for conducting Molecular Dynamics (MD) simulations using GROMACS on Google Colab, designed to facilitate accessible, reproducible, and cloud-based molecular modeling. The project builds upon and significantly extends the functionalities of the original repository [ColabMDA](https://github.com/paulshamrat/ColabMDA), which provided a foundational framework for executing GROMACS simulations in a Jupyter Notebook environment.
 
-This modified version incorporates additional flexibility, improved user guidance, and workflow adaptations tailored to support the supplementary computational analyses associated with the following peer-reviewed publication: ([Molecular dynamics simulation of wild and mutant proteasome subunit beta type 8 (PSMB8) protein: Implications for restoration of inflammation in experimental autoimmune encephalomyelitis pathogenesis](https://www.sciencedirect.com/science/article/pii/S2405844024171976)).
+This modified version incorporates additional flexibility, improved user guidance, and workflow adaptations tailored to support the supplementary computational analyses associated with the following peer-reviewed publication: [Molecular dynamics simulation of wild and mutant proteasome subunit beta type 8 (PSMB8) protein: Implications for restoration of inflammation in experimental autoimmune encephalomyelitis pathogenesis](https://www.sciencedirect.com/science/article/pii/S2405844024171976).
 
 The repository serves multiple purposes:
 - It provides a cloud-optimized Jupyter Notebook interface that eliminates the need for local high-performance computing resources, thereby democratizing access to MD simulations.
