@@ -28,7 +28,7 @@ The repository contains:
 
 ---
 
-**Acknowledgement:**
+## Acknowledgement
 
 We would like to thanks the authors who developed jupyter notebook framework for molecular dynamics simulation on google colab. Please always refer the original GROMACS manual for the simulaiton guide. We are grateful to the Authors of the follwoing article which made possible to adapt this md simulation protocol.
 
