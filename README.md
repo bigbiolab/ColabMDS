@@ -1,5 +1,5 @@
 # Molecular Modelling and Simulation on Google Colab 
-[flowchart](/images/flowchart.png)
+![](https://github.com/bigbiolab/ColabMDS/blob/main/images/flowchart.png)
 ---
 
 
